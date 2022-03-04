@@ -1,6 +1,6 @@
-#smile-food-yami website
+# smile-food-yami website
 
-##info
+## info
 -choiheeji
 (+82)1040562124
 

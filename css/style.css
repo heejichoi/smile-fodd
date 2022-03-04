@@ -1,0 +1,22 @@
+body{
+    font-family: "Lato", "Noto Sans KR", sans-serif;
+}
+
+.d-none{
+    display: none;
+}
+
+a, a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*========공지사항 팝업===========*/
+
+/*========헤더 영역===========*/
+
+/*========본문 영역===========*/
+
+/*========푸터 영역===========*/
+
+/*========반응형 스타일===========*/
