@@ -134,4 +134,27 @@ height: 220px;
 border-radius: 50%;
 overflow: hidden;
 }
-/*========본문 영역===========*/
+/*========어사이드 영역===========*/
+aside{
+margin: 50px 0 30px; /*위 50, 좌우0, 아래 30 */
+}
+.extra-links{
+    display: flex;
+    padding: 20px 0;
+    /*align-items: center;*/
+    justify-content: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.extra-links li:nth-child(2){
+margin: 0 15px;
+}
+/*========푸터 영역===========*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+address{
+    margin: 1rem 0;
+}
