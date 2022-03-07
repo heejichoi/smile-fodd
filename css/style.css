@@ -82,6 +82,7 @@ a, a:link{
     position: absolute;
     left: 10%;
     top: 30%;
+    text-shadow: 2px 2px 5px #333;
 }
 .slogan-text p:nth-child(1){
     font-size: 2rem;
@@ -113,4 +114,24 @@ a, a:link{
 .icon-links ul li{
     display: inline-block;
 }
-/*========반응형 스타일===========*/
+/*========본문 영역===========*/
+#main h4{
+text-align: center;
+text-transform: uppercase;
+margin: 30px 0;
+color: #d60c00;
+font-size: 22px;
+font-weight: 900;
+}
+.prd-list{/*ul*/
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.prd-list li{
+width: 220px;
+height: 220px;
+border-radius: 50%;
+overflow: hidden;
+}
+/*========본문 영역===========*/
