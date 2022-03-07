@@ -27,22 +27,22 @@ a, a:link{
     width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
-    /*background: salmon;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.header-top::after {
+/* .header-top::after {
     content: '';
     display: block;
     clear: both;
-}
-.header-logo {
-    float: left;
-}
+} */
+
 .header-links {
-    float: right;
-    margin: 15px 0 0 0;
+    display: flex;
+    
 }
 .header-links li{
-    float: left;
+
     margin: 0 0 0 15px;
 }
 .header-bottom{
